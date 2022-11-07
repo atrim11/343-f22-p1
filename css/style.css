@@ -1,0 +1,46 @@
+body {
+  background: rgb(114, 112, 112);
+  color: #000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+header {
+  padding-bottom: 3%;
+}
+
+/* this css is for the practice page*/
+#map-pic {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+#practice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.practice-head{
+    text-align: center;
+}
+#practice h3 {
+    color: rgb(83, 37, 161);
+  font-weight: 700;
+  text-align: center;
+}
+#practice p {
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+}
+.red {
+    color: rgb(155, 45, 45)
+}
+.blue {
+    color: rgb(37, 82, 161)
+}
