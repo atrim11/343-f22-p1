@@ -45,3 +45,9 @@ header {
 .blue {
     color: rgb(37, 82, 161)
 }
+
+#team-photo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
