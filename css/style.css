@@ -8,7 +8,9 @@ body {
 header {
   padding-bottom: 3%;
 }
-
+.navbar-brand {
+  padding-left: 1%;
+}
 /* this css is for the practice page*/
 #map-pic {
   display: flex;
