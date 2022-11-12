@@ -12,7 +12,10 @@ header {
   padding-left: 1%;
 }
 
-h1 {
+h1, h2, h3, h4 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
   font-family: 'Times New Roman', Times, serif;
 }
 /* this css is for the practice page*/
@@ -54,4 +57,23 @@ h1 {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+#schedule-pics {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+#exec-pics {
+  padding-left: 5%;
+}
+
+#support-left-box {
+  padding-right: 2.5%;
+}
+
+#support-right-box {
+  padding-left: 2.5%;
 }
