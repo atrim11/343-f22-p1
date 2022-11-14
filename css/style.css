@@ -90,6 +90,20 @@ p {
   padding: 0;
 }
 
+#support-pic {
+  height: 250px;
+  width: auto;
+  margin-left: 0;
+  object-fit: scale-down;
+}
+
+#support-pic-band {
+  height: auto;
+  width: 250px;
+  margin-left: 0;
+  object-fit: scale-down;
+}
+
 /* fixing page for mobile */
 @media (max-width: 990px) {
   /* home page */
