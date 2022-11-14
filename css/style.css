@@ -63,7 +63,7 @@ p {
   align-items: center;
 }
 
-#schedule-pics {
+#schedule-pic {
   padding: 0;
   margin: 0;
   display: flex;
@@ -80,4 +80,37 @@ p {
 
 #support-right-box {
   padding-left: 2.5%;
+}
+
+#schedule-pics img {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+/* fixing page for mobile */
+@media (max-width: 990px) {
+  /* home page */
+  #home-photo {
+    width: 550px;
+  }
+  /* practice page */
+  #map {
+    width: 550px;
+  }
+  /* exec page */
+  #exec-pics {
+    padding-left: 150px;
+  }
+  /* schedule page */
+  #schedule-pics {
+    flex-direction: column;
+  }
+  #schedule-pic {
+    padding-left: 5%;
+  }
+  #score {
+    width: 115px;
+  }
+  /* support page */
 }
