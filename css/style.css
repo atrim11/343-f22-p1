@@ -99,6 +99,7 @@ p {
   /* practice page */
   #map {
     width: 550px;
+    height: auto;
   }
   /* exec page */
   #exec-pics {
