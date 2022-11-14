@@ -13,11 +13,13 @@ header {
   padding-left: 1%;
 }
 
-h2, h3, h4 {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+h2,
+h3,
+h4 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 p {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 #Mstrong {
   padding-top: 3%;
@@ -36,11 +38,11 @@ p {
   padding-left: 2rem;
   padding-right: 2rem;
 }
-.practice-head{
-    text-align: center;
+.practice-head {
+  text-align: center;
 }
 #practice h3 {
-    color: rgb(83, 37, 161);
+  color: rgb(83, 37, 161);
   font-weight: 700;
   text-align: center;
 }
@@ -51,10 +53,10 @@ p {
   text-align: center;
 }
 .red {
-    color: rgb(155, 45, 45)
+  color: rgb(155, 45, 45);
 }
 .blue {
-    color: rgb(37, 82, 161)
+  color: rgb(37, 82, 161);
 }
 
 #team-photo {
@@ -112,5 +114,4 @@ p {
   #score {
     width: 115px;
   }
-  /* support page */
 }
