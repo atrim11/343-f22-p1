@@ -4,44 +4,59 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CSS only -->
+    <!-- Bootstrap CSS -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" />
     <title>JMU Men's Club Lacrosse</title>
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-dark bg-opacity-50">
-        <a class="navbar-brand" href="index.html">
-          <img src="images/JMULax.png" alt="JMU Lacrosse logo" width="110px" height="48px">
-        </a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            src="images/JMULax.png"
+            alt="JMU Lacrosse logo"
+            width="110px"
+            height="48px"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
             <a class="nav-item nav-link active" href="index.html">Home</a>
-            <a class="nav-item nav-link active" href="schedule.html">Schedule</a>
-            <a class="nav-item nav-link active" href="practice.html">Practice</a>
-            <a class="nav-item nav-link active" href="exec.html">Executive Board</a>
-            <a class="nav-item nav-link active" href="support.html">Support Us</a>
-          </div>
+            <a class="nav-item nav-link active" href="schedule.html"
+              >Schedule</a
+            >
+            <a class="nav-item nav-link active" href="practice.html"
+              >Practice</a
+            >
+            <a class="nav-item nav-link active" aria-current="page" href="exec.html"
+              >Executive Board</a
+            >
+            <a
+              class="nav-item nav-link active"
+              aria-current="page"
+              href="support.html"
+              >Support Us</a
+            >
+          </ul>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
     <div class="container">
       <div class="row justify-content-center mb-3">
         <div class="col-md-7 text-center">
@@ -54,7 +69,12 @@
         <div class="card" style="width: 18rem">
           <h3 class="card-header">President</h3>
           <div class="card-body">
-            <img src="images/OwenWillison.jpg" alt="Team president picture" height="250px" width="250px">
+            <img
+              src="images/OwenWillison.jpg"
+              alt="Team president picture"
+              height="250px"
+              width="250px"
+            />
             <h5 class="card-title">Owen Willison</h5>
           </div>
         </div>
@@ -63,7 +83,12 @@
         <div class="card" style="width: 18rem">
           <h3 class="card-header">Vice President</h3>
           <div class="card-body">
-            <img src="images/JonathanDurette.jpg" alt="Team vice president" height="250px" width="250px">
+            <img
+              src="images/JonathanDurette.jpg"
+              alt="Team vice president"
+              height="250px"
+              width="250px"
+            />
             <h5 class="card-title">Jonathan Durette</h5>
           </div>
         </div>
@@ -72,7 +97,12 @@
         <div class="card" style="width: 18rem">
           <h3 class="card-header">Treasurer</h3>
           <div class="card-body">
-            <img src="images/AndrewFleetwood.jpg" alt="Team Treasurer" height="250px" width="250px">
+            <img
+              src="images/AndrewFleetwood.jpg"
+              alt="Team Treasurer"
+              height="250px"
+              width="250px"
+            />
             <h5 class="card-title">Andrew Fleetwood</h5>
           </div>
         </div>
@@ -81,7 +111,12 @@
         <div class="card" style="width: 18rem">
           <h3 class="card-header">Secretary</h3>
           <div class="card-body">
-            <img src="images/SpencePerry.jpg" alt="Team secretary" height="250px" width="250px">
+            <img
+              src="images/SpencePerry.jpg"
+              alt="Team secretary"
+              height="250px"
+              width="250px"
+            />
             <h5 class="card-title">Spence Perry</h5>
           </div>
         </div>
@@ -90,7 +125,12 @@
         <div class="card" style="width: 18rem">
           <h3 class="card-header">Housing Chair</h3>
           <div class="card-body">
-            <img src="images/ChrisHonarmand.jpg" alt="Team housing chair" height="250px" width="250px">
+            <img
+              src="images/ChrisHonarmand.jpg"
+              alt="Team housing chair"
+              height="250px"
+              width="250px"
+            />
             <h5 class="card-title">Chris Honarmand</h5>
           </div>
         </div>
@@ -99,7 +139,12 @@
         <div class="card" style="width: 18rem">
           <h3 class="card-header">Alumni Chair</h3>
           <div class="card-body">
-            <img src="images/CalvinMiller.jpg" alt="Team alumni chair" height="250px" width="250px">
+            <img
+              src="images/CalvinMiller.jpg"
+              alt="Team alumni chair"
+              height="250px"
+              width="250px"
+            />
             <h5 class="card-title">Calvin Miller</h5>
           </div>
         </div>
@@ -108,16 +153,26 @@
         <div class="card" style="width: 18rem">
           <h3 class="card-header">Philanthropy</h3>
           <div class="card-body">
-            <img src="images/AidanTrimmer.jpg" alt="Team philanthropy" height="250px" width="250px">
+            <img
+              src="images/AidanTrimmer.jpg"
+              alt="Team philanthropy"
+              height="250px"
+              width="250px"
+            />
             <h5 class="card-title">Aidan Trimmer</h5>
           </div>
         </div>
       </div>
       <div class="col text-center">
         <div class="card" style="width: 18rem">
-          <h3 class="card-header">Social Media </h3>
+          <h3 class="card-header">Social Media</h3>
           <div class="card-body">
-            <img src="images/MattNeff.jpeg" alt="Team social media" height="250px" width="250px">
+            <img
+              src="images/MattNeff.jpeg"
+              alt="Team social media"
+              height="250px"
+              width="250px"
+            />
             <h5 class="card-title">Matt Neff</h5>
           </div>
         </div>
@@ -126,7 +181,12 @@
         <div class="card" style="width: 18rem">
           <h3 class="card-header">Social Chair</h3>
           <div class="card-body">
-            <img src="images/ChaseOhanley.jpg" alt="Team social chair" height="250px" width="250px">
+            <img
+              src="images/ChaseOhanley.jpg"
+              alt="Team social chair"
+              height="250px"
+              width="250px"
+            />
             <h5 class="card-title">Chase O'Hanley</h5>
           </div>
         </div>
@@ -135,7 +195,12 @@
         <div class="card" style="width: 18rem">
           <h3 class="card-header">Social Chair</h3>
           <div class="card-body">
-            <img src="images/AdamSmith.jpg" alt="Team social chair" height="250px" width="250px">
+            <img
+              src="images/AdamSmith.jpg"
+              alt="Team social chair"
+              height="250px"
+              width="250px"
+            />
             <h5 class="card-title">Adam Smith</h5>
           </div>
         </div>
@@ -144,7 +209,12 @@
         <div class="card" style="width: 18rem">
           <h3 class="card-header">Social Chair</h3>
           <div class="card-body">
-            <img src="images/LukeMehr.jpg" alt="Team social chair" height="250px" width="250px">
+            <img
+              src="images/LukeMehr.jpg"
+              alt="Team social chair"
+              height="250px"
+              width="250px"
+            />
             <h5 class="card-title">Luke Mehr</h5>
           </div>
         </div>
@@ -153,13 +223,22 @@
         <div class="card" style="width: 18rem">
           <h3 class="card-header">Social Chair</h3>
           <div class="card-body">
-            <img src="images/HunterLoock.jpg" alt="Team social chair" height="250px" width="250px">
+            <img
+              src="images/HunterLoock.jpg"
+              alt="Team social chair"
+              height="250px"
+              width="250px"
+            />
             <h5 class="card-title">Hunter Loock</h5>
           </div>
         </div>
       </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <!-- Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
